@@ -1,5 +1,5 @@
 import "./App.css";
-import RenderCards from "./components/CardList.jsx";
+import RenderCards from "./components/ProductCard.jsx";
 
 // 상품 데이터
 const products = [
