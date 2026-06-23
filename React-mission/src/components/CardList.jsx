@@ -20,7 +20,7 @@ function RenderCards({ data }) {
               <h2>{name}</h2>
               <p className={styles.brand}>{brand}</p>
             </div>
-            <p className={styles.price}>{price}원</p>
+            <p className={styles.price}>{price.toLocaleString()}원</p>
           </div>
         </div>{" "}
       </li>

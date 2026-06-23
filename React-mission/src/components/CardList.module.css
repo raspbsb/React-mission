@@ -33,11 +33,6 @@ li {
   margin: 0;
 }
 
-.card h2 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 .productThumb {
   width: 100%;
   aspect-ratio: 1/1;
@@ -59,10 +54,20 @@ li {
   gap: 4px;
 }
 
+.card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
 .brand {
   font-size: 12px;
+  font-weight: 500;
+  color: #888;
 }
 
 .price {
   font-size: 16px;
+  font-weight: 500;
+  color: #444;
 }
