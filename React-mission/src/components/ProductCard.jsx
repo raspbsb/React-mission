@@ -17,7 +17,7 @@ function RenderCards({ data }) {
           <div className={styles.productThumb}></div>
           <div className={styles.contents}>
             <div className={styles.cardHeader}>
-              <h2>{name}</h2>
+              <h2 className={styles.name}>{name}</h2>
               <p className={styles.brand}>{brand}</p>
             </div>
             <p className={styles.price}>{price.toLocaleString()}원</p>

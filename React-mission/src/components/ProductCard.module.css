@@ -36,8 +36,8 @@ li {
 .productThumb {
   width: 100%;
   aspect-ratio: 1/1;
-  background: #f6f6f6;
-  border-bottom: 1px solid #eee;
+  background: #ddd;
+  border-bottom: 1px solid #ccc;
 }
 
 .contents {
@@ -54,7 +54,7 @@ li {
   gap: 4px;
 }
 
-.card h2 {
+.name {
   font-size: 20px;
   font-weight: 700;
   color: #222;
