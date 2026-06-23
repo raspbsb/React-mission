@@ -24,7 +24,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 0;
-  border: 2px solid #000;
+  border: 1px solid #ccc;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -41,12 +41,13 @@ li {
 .productThumb {
   width: 100%;
   aspect-ratio: 1/1;
-  background: #eee;
+  background: #f6f6f6;
+  border-bottom: 1px solid #eee;
 }
 
 .contents {
   box-sizing: border-box;
-  padding: 12px 16px 24px;
+  padding: 16px 16px 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
