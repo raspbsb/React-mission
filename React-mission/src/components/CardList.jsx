@@ -1,5 +1,5 @@
 // css모듈을 가져와서 이 파일에만 적용
-import styles from "./Card.module.css";
+import styles from "./CardList.module.css";
 
 // id, name, price, brand 객체 배열인 상품 카드 데이터를 받아서 순회 렌더링 후 반환하는 함수
 function RenderCards({ data }) {
